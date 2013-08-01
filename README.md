@@ -18,16 +18,21 @@ To use WIZ820io with GR-KURUMI, users need to replace 4 files in the Ethernet li
    Download modified w5100.cpp & w5100.h and files (attached) and overwrite onto the"RLduino78/libraries/Ethernet/utility" folder in your project in e2studio. 
    
 * Uncomment a below line in the modified w5100.h 
+
 `#define W5500_ETHERNET_SHIELD` 
+
 * Change MAX_SOCK_NUM as 8 on Ethernet.h in RLduino78/libraries. 
+
 `#define MAX_SOCK_NUM 8` 
 
 2. SPI Configuration
 
 * Set SPI Mode as Mode0 and change the SPI.h in " RLduino78/libraries/SPI" as below, 
+
 `#define SPI_MODE_MASK 0x0000;`
 
-* Set SPI Clock Divider (@16MHz)and change the in SPI.c in "RLduino78/libraries/SPI " as below, ***
+* Set SPI Clock Divider (@16MHz)and change the in SPI.c in "RLduino78/libraries/SPI " as below, 
+
 `SPI_SDRxx     = SPI_CLOCK_DIV2 << 9;`
 
 
