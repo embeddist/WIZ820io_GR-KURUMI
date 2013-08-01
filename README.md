@@ -14,7 +14,7 @@ To use WIZ820io with GR-KURUMI, users need to replace 4 files in the Ethernet li
 
 ## Software
 
-1. Install W5200 library
+#### Install W5200 library
    Download modified w5100.cpp & w5100.h and files (attached) and overwrite onto the"RLduino78/libraries/Ethernet/utility" folder in your project in e2studio. 
    
 * Uncomment a below line in the modified w5100.h 
@@ -25,7 +25,7 @@ To use WIZ820io with GR-KURUMI, users need to replace 4 files in the Ethernet li
 
 `#define MAX_SOCK_NUM 8` 
 
-2. SPI Configuration
+#### SPI Configuration
 
 * Set SPI Mode as Mode0 and change the SPI.h in " RLduino78/libraries/SPI" as below, 
 
