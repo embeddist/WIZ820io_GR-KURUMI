@@ -3,7 +3,7 @@ WIZ820io provides easy and simple Ethernet connectivity to small platforms like 
 WIZnet W5200 ethernet chip is used in WIZ820io. 
 To use WIZ820io with GR-KURUMI, users need to replace 4 files in the Ethernet library for GR-KURUMI.
 
-![WIZ820io](http://www.wiznet.co.kr/Admin_Root/UpLoad_Files/ProductImgs/Lst_1160_20111027110621.jpg "WIZ820io")
+![WIZ820io](http://www.wiznet.co.kr/Admin_Root/UpLoad_Files/ProductImgs/Lst_1160_20111027110621.jpg|300 "WIZ820io")
 
 [GR-SAKURA - Forum, GR-KURUMI](http://renesasrulz.com/app_kits_and_demo_boards/gadget_renesas_user_forum/f/128/t/3968.aspx)
 
